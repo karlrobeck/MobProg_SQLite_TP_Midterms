@@ -68,10 +68,6 @@ public class MainActivity extends AppCompatActivity {
         title.setText(movie.movieName);
         title.setTypeface(null, Typeface.BOLD);
         title.setTextSize(pdToPx(16));
-        // director and release date
-        /*
-            TODO: Create a flexbox and place the director and release date
-         */
         FlexboxLayout subHeading = new FlexboxLayout(MainActivity.this);
         subHeading.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT));
         subHeading.setFlexDirection(FlexDirection.COLUMN);
